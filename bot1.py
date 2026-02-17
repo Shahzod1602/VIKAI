@@ -13,7 +13,7 @@ import google.generativeai as genai
 
 # ================= CONFIG =================
 BOT_TOKEN = "8529784413:AAEwqt5BxcVZ-_DGdOpmD3x0w0RGeO3raKI"
-GEMINI_API_KEY = "AIzaSyBZkq7UHTAGaG5jaBv2ib4zBM0eXgJN6EQ"
+GEMINI_API_KEY = ""
 MODEL_NAME = "gemini-2.5-pro"
 ADMIN_IDS = [5471121432]  # Admin ID'larni shu yerga qo'ying
 DB_FILE = "vikai_bot.db"
@@ -857,4 +857,5 @@ async def main():
 
 
 if __name__ == "__main__":
+
     asyncio.run(main())
